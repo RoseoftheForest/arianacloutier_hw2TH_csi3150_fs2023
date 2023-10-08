@@ -8,32 +8,84 @@
     </head>
     
     <body>
-        <h1>Ariana Cloutier</h1>
-        <h2>Welcome to my portfolio Website!</h2>
-        <nav>
-            <ul>
-                <li><a href="index.html">Index</a></li>
-                <li><a href="html/my_resume.html">My Resume</a></li>
-                <li><a href="html/my_fun_facts.html">My Fun Facts</a></li>
-            </ul>
-        </nav>
-        <img src="img/favicon.png" />
+        <style>
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            .topnav a {
+                float: right;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 50px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+
+            .topnav-left {
+                float: left;
+            }
+            .topnav a.active {
+                background-color: #04AA6D;
+                color: white;
+            }
+
+            .container {
+            position: top;
+            text-align: center;
+            color: black;
+            }
+            .centered {
+                position: absolute;
+                top: 19%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            p {text-align: center;}
+        </style>
+        <div class="topnav">
+            <a href="html/my_fun_facts.html">Fun Facts</a>
+            <a href="html/my_resume.html">Resume</a>
+            <a href="index.html">Home</a>
+            <div class="topnav-left">
+                <a class="active">Ariana Cloutier</a>
+              </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            <img src="img/favicon.png" alt="Snow" style="width:40%;">
+            <div class="centered">
+                <h1>
+                    Ariana Cloutier<br>
+                    Welcome to my portfolio website!
+                </h1>
+            </div>
+          </div>
         <p>
             "I think Therefore I am" - Descartes
+        </p>
         <p>
             Hello, I am Ariana Cloutier! I am 22 Years old and I am currently seeking a Bachelors Degree <br>
             for Information Technology at Oakland University! I currently work at the Housing department <br>
             at Oakland University, But I hope to work in IT Soon!<br>
             To know more about me check out these:
-            <nav>
-                <ul>
-                    <li><a href="html/my_resume.html">My Resume</a></li>
-                    <li><a href="html/my_fun_facts.html">My Fun Facts</a></li>
-                </ul>
-                <p>Here is my progress to my degree!</p>
-                <img src="img/Progress.png" />
-                <p>110 Credits</p>
         </p>
+        <nav>
+            <p><a href="html/my_resume.html">My Resume</a></p>
+            <p><a href="html/my_fun_facts.html">My Fun Facts</a></p>
+        </nav>
+        <p>Here is my progress to my degree!</p>
+        <p><img src="img/Progress.png" /></p>
+        <p>110 Credits</p>
     </body>
     <footer>
         <p>____________________________________________________________________________________________________________________________________________________________________________________________</p>

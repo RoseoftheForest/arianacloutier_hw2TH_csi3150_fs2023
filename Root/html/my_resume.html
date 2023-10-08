@@ -7,13 +7,42 @@
         <link rel="icon" type = "image/png" href="../img/favicon.png">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Index</a></li>
-                <li><a href="my_resume.html">My Resume</a></li>
-                <li><a href="my_fun_facts.html">My Fun Facts</a></li>
-            </ul>
-        </nav>
+        <style>
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            .topnav a {
+                float: right;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 50px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+
+            .topnav-left {
+                float: left;
+            }
+            .topnav a.active {
+                background-color: #04AA6D;
+                color: white;
+            }
+        </style>
+        <div class="topnav">
+            <a href="my_fun_facts.html">Fun Facts</a>
+            <a href="my_resume.html">Resume</a>
+            <a href="../index.html">Home</a>
+            <div class="topnav-left">
+                <a class="active">Ariana Cloutier</a>
+            </div>
+        </div>
         <h1>Ariana Cloutier - Resume</h1>
         <h2> 3333 home Dr Rochester Mi 48309<br>
         (123) 456-7890 <br>
